@@ -7,4 +7,4 @@ set(SOURCES ${SOURCES})
 
 add_executable(${BINARY}Lab-06 ${SOURCES})
 
-add_library(${BINARY}_lib STATIC ${SOURCES} Person.cpp Person.h)
+add_library(${BINARY}_lib STATIC ${SOURCES} Person.cpp Person.h Professor.cpp Professor.h University.cpp University.h Administrative.cpp Administrative.h)
